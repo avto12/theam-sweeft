@@ -23,7 +23,7 @@ $services =   get_field('services');
       </div>
    </div>
 
-   <div class="container-fulid myboxs-container">
+   <div class="container-fluid myboxs-container">
       <div class="carad-column">
          <div class="mySwiper">
             <div class="swiper-wrapper myswiper-wrapper">

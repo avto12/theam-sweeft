@@ -18,22 +18,23 @@ $downicon_content   =   get_field('downicon_content');
  
 ?>
 
+<?php if(!empty($banner_video)): ?>
+    <div class="videoupload" id="" > 
+        <video  
+            muted 
+            autoplay 
+            loop 
+            src="<?php echo $banner_video; ?>">
+        </video>
+    </div>
+<?php endif; ?>
+<section 
+    id="<?= $background_size ?>" 
+    class="bg-image-class" 
+  
+        style="background:linear-gradient(to right,rgba(23,7,56,.3),rgba(23,7,56,.3)), url(<?php echo $banner['url']; ?>)">
+    
  
-<section id="<?= $background_size ?>" class="bg-image-class" 
-        style="background: 
-            linear-gradient(to right,rgba(23,7,56,.3),rgba(23,7,56,.3)), 
-            url(<?php echo $banner['url'];?>)">  
-
-    <?php if(!empty($banner_video)): ?>
-        <div class="videoupload" id="" > 
-            <video  
-                muted 
-                autoplay 
-                loop 
-                src="<?php echo $banner_video; ?>">
-            </video>
-        </div>
-    <?php endif; ?>
 
     <div class="container container_my"> 
         <div id="<?= $title_background ?>" class="banner-image-class <?= $position; ?>"> 

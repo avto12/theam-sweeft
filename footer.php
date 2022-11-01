@@ -33,7 +33,7 @@ $padding_zero	=	get_field("padding_zero");
 			<?php if(isset($box_content_two) && $box_content_two) : ?>
 				<?php foreach($box_content_two as $content_two) : ?>
 					<div class="col footer_box_card">
-						<a class="card-link" href="<?= $content_two['Url']['url']; ?>">
+						<a class="card-link" href="<?php $content_two['url']['url']; ?>">
 							<div class="card footer-card box-card p-4">
 								<div class="card-body footer-card-body px-0">
 									<div class="footer-contact-help"> 

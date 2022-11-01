@@ -13,7 +13,7 @@ $partner_content = get_field('partner_content');
 
 <!----------------- Start Our Partner -------------->
 <section class="column-partner">
-   <div class="container-fulid partner-container">
+   <div class="container-fluid partner-container">
       <div class="title-partner-box">
          <h2><?php echo $partner_title; ?></h2>
       </div>

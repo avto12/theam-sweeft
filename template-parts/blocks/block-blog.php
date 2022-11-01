@@ -74,11 +74,13 @@ $blog_content       =   get_field('blog_content');
 
     if(isset($read_more) && $read_more): ?>
         <div class="btn-readmore"> 
-            <a href="<?= $read_more['url']; ?>" target="<?= $read_more['targert']; ?>">
+       
+            <a href="<?= $read_more['url']; ?>" target="_blank">
                 <div class="link-read btn-stores more-btn">
                     <span class="get-ling"> <?= $read_more['title'];?> </span>
                 </div>
             </a>
+       
         </div>
 
    <?php endif; ?>

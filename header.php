@@ -53,16 +53,15 @@ $check_color = get_field("add_menu_color");
                         array(
                         'theme_location'  => 'menu-1',
                         'menu_id'         => 'navbarSupportedContent',
-                        'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0 main-navbar my-nav-link',
+                        'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0 main-navbar my-nav-link'
                         
                         )
-                    );
-                    
+                        );
 
                 ?>
 
 
-                <a class="nav-link my-nav-link btn-main <?php echo $check_color ? 'show-color' : " "; ?>" href="http://localhost:10003/contact/">contact</a>
+                <a class="nav-link my-nav-link btn-main <?php echo $check_color ? 'show-color' : " "; ?>" href="http://sweeft.local/contact/">contact</a>
                 
             </div>
  
@@ -96,7 +95,7 @@ $check_color = get_field("add_menu_color");
                                 )
                             );
                         ?>
-                        <a class="nav-link my-nav-link-mob" href="#">contact</a>
+                        <a class="nav-link my-nav-link-mob" href="http://sweeft.local/contact/">contact</a>
                     
                         <div class="social-icons"> 
                             <a class="nav-link my-nav-link" aria-current="page" href="#">
@@ -124,9 +123,9 @@ $check_color = get_field("add_menu_color");
                 </div>
               </div>
             </div>
-        </nav>
+        </header>
 	</div>
-</header>
+</body>
 
 
 
